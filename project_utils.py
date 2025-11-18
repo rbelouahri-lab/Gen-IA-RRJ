@@ -35,3 +35,6 @@ def upload_document(
     destination_path = UPLOAD_DIRECTORY / destination_name
     shutil.copy(source_path, destination_path)
     return f"File uploaded successfully as {destination_name}"
+
+
+g
